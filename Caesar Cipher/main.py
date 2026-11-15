@@ -6,7 +6,7 @@ print(logo)
 continue_game = True
 
 while continue_game:
-    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt\n")
+    direction = input("\nType 'encode' to encrypt, type 'decode' to decrypt: \n")
     message = input("Type your message: \n").lower()
     shift = int(input("Type the shift number: "))
 
