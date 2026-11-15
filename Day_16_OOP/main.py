@@ -1,4 +1,5 @@
 import turtle
+import tkinter
 
 screen = turtle.Screen()
 
